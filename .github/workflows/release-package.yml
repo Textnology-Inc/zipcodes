@@ -23,9 +23,6 @@ jobs:
       - name: Build and Publish package
         id: build-publish-pkg
         run: |
-          yarn install --frozen-lockfile
-          yarn prisma:generate
-          yarn build
           npm version --no-git-tag-version ${GITHUB_REF##*/}
           npm publish
         env:
