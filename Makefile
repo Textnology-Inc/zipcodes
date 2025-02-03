@@ -8,7 +8,11 @@ cazips:
 
 zip: zips
 
+cazip: cazips
+
 codes: zips
+
+cacodes: cazips
 
 test: tests
 
