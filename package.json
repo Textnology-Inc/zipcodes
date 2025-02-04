@@ -1,17 +1,11 @@
 {
-  "name": "zipcodes",
-  "description": "Useful zipcode database with helper methods",
+  "name": "@textnology-inc/zipcodes",
+  "description": "Useful zipcode database with helper methods. Forked from http://github.com/davglass/zipcodes.git",
   "version": "8.0.0",
   "author": "Dav Glass <davglass@gmail.com>",
-  "bugs": {
-    "web": "http://github.com/davglass/zipcodes/issues"
-  },
   "main": "./lib/index.js",
   "license": "BSD",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/davglass/zipcodes.git"
-  },
+  "repository": "https://github.com/Textnology-Inc/zipcodes.git",
   "scripts": {
     "test": "istanbul cover --print both -- vows --spec ./tests/lookup.js"
   },
